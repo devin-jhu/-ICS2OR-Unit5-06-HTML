@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="day of the week">
+    <meta name="keywords" content="day, age">
+    <meta name="author" content="devin-jhu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>museum price</title>
+  </head>
+  <body>
+    <p>day of the week</p>
+    <p>Enter day of week and age to see what you have to do</p>
+    age:<input type="number" id="age"><br>
+    <button onclick="guess()">guess age</button><br>
+    <script>
+      let sunday;
+      let saturday;
+      let day;
+      let age;
+      function guess() {
+        age=document.getElementById("age").value;
+        if (age==14) {
+          alert ("you win");
+        }
+        else {
+          alert ("you lose try agian")
+        }
+      }
+    </script>
+  </body>
+</html>
